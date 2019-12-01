@@ -16,7 +16,9 @@ namespace SalesTaxTest
         static void Main(string[] args)
         {
             var dataParser = new DataAccess.DataParser(new DataAccess.CategoryManager());
-
+            Console.WriteLine("Here you could write product info - one line one product");
+            Console.WriteLine("Example - 1 book at £12.49");
+            Console.WriteLine("When you add bunch jast write calc and hit enter. Enjoy!");
             while (true)
             {
                 var input = Console.ReadLine();
